@@ -35,7 +35,7 @@ class BaseJumpCloud:
             headers={"Authorization": "Bearer %s" % access_token},
         )
     
-class JumpCloudOauth2
+class JumpCloudOauth2:
     """Jumpcloud Oauth2 authentication backend"""
     name = "jumpcloud-oauth2"
     AUTHORIZATION_URL = "https://oauth.id.jumpcloud.com/oauth2/auth"
