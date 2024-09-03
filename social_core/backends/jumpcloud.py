@@ -5,7 +5,7 @@ Jumpcloud backends, docs at:
 
 from .oauth import BaseOAuth2
 
-class JumpCloudOauth2:
+class JumpCloudOauth2(BaseOAuth2):
     """Jumpcloud Oauth2 authentication backend"""
     name = "jumpcloud-oauth2"
     AUTHORIZATION_URL = "https://oauth.id.jumpcloud.com/oauth2/auth"
